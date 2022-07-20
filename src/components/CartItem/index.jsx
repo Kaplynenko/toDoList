@@ -29,7 +29,7 @@ const CartItem = ({item,onRemoveItem,onDecrement})=>{
 }
 
 CartItem.propTypes={
-    item:
+    item: 
         propTypes.shape({
             name:propTypes.string.isRequired,
             price:propTypes.number.isRequired,
